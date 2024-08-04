@@ -1,0 +1,88 @@
+.carousel1{
+    width: 100%;
+   
+}
+
+.img-btn{
+    width: 35px;
+    height: 50px;
+    border-radius: 50%;
+    border: double 3px #48a650;
+    outline: none;
+    padding: 0 10px;
+    font-size: 10px;
+   object-fit: cover;
+}
+.carousel-control-prev{
+    height: 40px;
+    width: 40px;
+    border: solid 1px black;
+   margin-top: 250px;
+   margin-left: 20px;
+   padding: 5px;
+   border-radius: 50%;
+}
+.carousel-control-next{
+    height: 40px;
+    width: 40px;
+    border: solid 1px black;
+   margin-top: 250px;
+   margin-right: 20px;
+   padding: 5px;
+   border-radius: 50%;
+   
+}
+.carousel-control-prev:hover,.carousel-control-next:hover{
+    background-color: rgb(16, 139, 0);
+}
+.img-btn:hover{
+transform: scale(1.1);
+}
+.products {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   
+  
+}
+.product-img img{
+    width: 200px;
+    margin-top: 30px;
+   margin-bottom: 30px;
+}
+.icons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: end;
+    column-gap: 8px;
+}
+.product-name{
+    text-align: center; 
+    margin-bottom: 40px;
+}
+.product-price{
+    font-family: 'Times New Roman', Times, serif;
+    align-self: center;
+}
+.price{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+.discount-percentage{
+    font-size: x-small;
+    align-self: center;
+    font-weight: 700;
+}
+.price-discount{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: deeppink;
+    font-size: large;
+}
+.product-img img:hover{
+    transform: scale(1.1);
+    
+}
+.bi-heart:hover{
+    flood-color: rgb(174, 11, 11)
+}

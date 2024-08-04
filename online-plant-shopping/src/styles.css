@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+
+    color: black;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+   background-color: rgb(226, 171, 194);
+    
+}
+*{
+    list-style: none;
+    
+}
